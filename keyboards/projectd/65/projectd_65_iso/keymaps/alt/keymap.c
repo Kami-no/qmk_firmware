@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_TAB,                 KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,       KC_Y,       KC_U,       KC_I,       KC_O,       KC_P,       KC_LBRC,    KC_RBRC,                KC_PGUP,
             KC_CAPS,                KC_A,       KC_S,       KC_D,       KC_F,       KC_G,       KC_H,       KC_J,       KC_K,       KC_L,       KC_SCLN,    KC_QUOT,    KC_BSLS,    KC_ENT,     KC_PGDN,
             KC_LSFT,    KC_GRV,     KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,       KC_N,       KC_M,       KC_COMM,    KC_DOT,     KC_SLSH,    KC_RSFT,                KC_UP,      KC_END,
-            KC_LCTL,    KC_LGUI,    KC_LALT,                                        KC_SPC,                                         KC_RALT,    MO(1),                  KC_LEFT,    KC_DOWN,    KC_RGHT),
+            KC_LCTL,    KC_LGUI,    KC_LALT,                                        KC_SPC,                                         KC_RALT,    MO(2),                  KC_LEFT,    KC_DOWN,    KC_RGHT),
 /* MacOS */
 [1] = LAYOUT(
             KC_TRNS,                KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             QK_BOOT,                KC_TRNS,    KC_TRNS,    KC_TRNS,    RM_TOGG,    RM_NEXT,    RM_PREV,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,                KC_VOLU,
             KC_TRNS,                KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_VOLD,
             KC_TRNS,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,                RM_VALU,    KC_HOME,
-            KC_TRNS,    DF(0),      DF(1),                                          KC_TRNS,                                        MO(2),      KC_TRNS,                RM_SPDD,    RM_VALD,    RM_SPDU),
+            KC_TRNS,    DF(0),      DF(1),                                          KC_TRNS,                                        MO(1),      KC_TRNS,                RM_SPDD,    RM_VALD,    RM_SPDU),
 /* Draft
 [8] = LAYOUT(
             KC_TRNS,                KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,
