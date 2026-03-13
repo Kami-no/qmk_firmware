@@ -39,7 +39,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             return false; /* Skip all further processing of this key */
 
-            case RGB_R:
+        case RGB_R:
             if (record->event.pressed) {
                 rgb_matrix_sethsv(0, 255, 255);
                 rgb_matrix_mode(1);
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             QK_BOOT,                KC_TRNS,    KC_TRNS,    KC_TRNS,    RM_TOGG,    RM_NEXT,    RM_PREV,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,                KC_VOLU,
             KC_TRNS,                KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_VOLD,
             KC_TRNS,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,                RM_VALU,    KC_HOME,
-            KC_TRNS,    DF(0),      DF(1),                                          KC_TRNS,                                        MO(1),      KC_TRNS,                RM_SPDD,    RM_VALD,    RM_SPDU),
+            KC_TRNS,    PDF(0),     PDF(1),                                         KC_TRNS,                                        MO(1),      KC_TRNS,                RM_SPDD,    RM_VALD,    RM_SPDU),
 /* Draft
 [8] = LAYOUT(
             KC_TRNS,                KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,
