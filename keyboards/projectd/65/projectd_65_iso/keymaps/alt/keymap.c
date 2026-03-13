@@ -99,7 +99,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             _______,    KC_LALT,    KC_LGUI,                                        _______,                                        _______,    _______,                _______,    _______,    _______),
 /* Fn */
 [2] = LAYOUT(
-            KC_GRV,                 KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     _______,    CM_LOCK,
+            KC_GRV,                 KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     KC_KB_MUTE, CM_LOCK,
             QK_BOOT,                _______,    _______,    _______,    RM_TOGG,    RM_NEXT,    RM_PREV,    _______,    _______,    _______,    _______,    _______,    _______,                KC_VOLU,
             _______,                _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    KC_VOLD,
             _______,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      _______,    _______,    _______,    _______,    _______,    _______,                RM_VALU,    KC_HOME,
