@@ -19,11 +19,11 @@
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
 enum my_keycodes {
-    RGB_A,
     RGB_R = QK_USER,
     RGB_G,
     RGB_B,
     RGB_W,
+    RGB_A,
     SW_cy,
     CM_LOCK,
 };
@@ -100,16 +100,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Fn */
 [2] = LAYOUT(
             KC_GRV,                 KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     KC_MUTE,    CM_LOCK,
-            _______,                KC_F13,     KC_F14,     KC_F15,     KC_F16,     KC_F17,     KC_F18,     KC_F19,     KC_F20,     KC_F21,     KC_F22,     KC_F23,     KC_F24,                 KC_VOLU,
+            QK_BOOT,                _______,    _______,    _______,    RM_TOGG,    RM_NEXT,    RM_PREV,    _______,    _______,    _______,    _______,    _______,    _______,                KC_VOLU,
             _______,                _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    KC_MPLY,    KC_VOLD,
-            _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,                KC_BRIU,    KC_HOME,
-            _______,    _______,    _______,                                        _______,                                        MO(3),      _______,                KC_MPRV,    KC_BRID,    KC_MNXT),
-/* QMK */
-[3] = LAYOUT(
-            _______,                _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,
-            QK_BOOT,                _______,    _______,    _______,    RM_TOGG,    RM_NEXT,    RM_PREV,    _______,    _______,    _______,    _______,    _______,    _______,                _______,
-            _______,                _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,
-            _______,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      _______,    _______,    _______,    _______,    _______,    _______,                RM_VALU,    _______,
+            _______,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      _______,    _______,    _______,    KC_BRID,    KC_BRIU,    _______,                RM_VALU,    KC_HOME,
             _______,    PDF(0),     PDF(1),                                         _______,                                        _______,    _______,                RM_SPDD,    RM_VALD,    RM_SPDU),
 /* Draft
 [8] = LAYOUT(
