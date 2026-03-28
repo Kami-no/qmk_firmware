@@ -102,7 +102,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_GRV,                 KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     KC_MUTE,    CM_LOCK,
             QK_BOOT,                _______,    _______,    _______,    RM_TOGG,    RM_NEXT,    RM_PREV,    _______,    _______,    _______,    _______,    _______,    _______,                KC_VOLU,
             _______,                _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    KC_MPLY,    KC_VOLD,
-            _______,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      _______,    _______,    _______,    KC_BRID,    KC_BRIU,    _______,                RM_VALU,    KC_HOME,
+            _______,    RGB_A,      RGB_R,      RGB_G,      RGB_B,      RGB_W,      SW_cy,      _______,    _______,    KC_BRID,    KC_BRIU,    _______,    _______,                RM_VALU,    KC_HOME,
             _______,    PDF(0),     PDF(1),                                         _______,                                        _______,    _______,                RM_SPDD,    RM_VALD,    RM_SPDU),
 /* Draft
 [8] = LAYOUT(
